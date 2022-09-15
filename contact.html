@@ -9,23 +9,38 @@
     <script src="https://kit.fontawesome.com/4341a67cd2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <ul>
-        <li>
-            <a href="index.html">
-                Home
-            </a>
-        </li>
-        <li>
-            <a href="about.html">
-                About
-            </a>
-        </li>
-        <li>
-            <a href="contact.html">
-                Contact
-            </a>
-        </li>
-    </ul>
+    <div class="navbar">
+        <ul>
+            <!---------->
+            <!--HEADER-->
+            <!---------->
+            <header>
+                <a href="index.html">RECENT PROJECT
+                </a>
+            </header>
+            <!---------->
+            <!--NAVBAR-->
+            <!---------->
+            <li>
+                <a href="index.html">
+                    Portfolio
+                </a>
+            </li>
+            <li>
+                <a href="about.html">
+                    About
+                </a>
+            </li>
+            <li>
+                <a href="contact.html">
+                    Contact
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!----------->
+    <!--SOCIALS-->
+    <!----------->
     <a href="https://www.instagram.com/" target="blank">
         <i class="fa-brands fa-instagram">
         </i>
@@ -34,5 +49,40 @@
         <i class="fa-brands fa-twitter">
         </i>
     </a>
+    <!---------------->
+    <!--CONTACT FORM-->
+    <!---------------->
+    <div class="cform">
+        <form action="">
+            <label for="fname">
+                First Name
+            </label>
+            <input type="text" id="fname" name="firstname" placeholder="Your Name..">
+            <label for="lname">
+                Last Name
+            </label>
+            <input type="text" id="lname" name="lastname" placeholder="Your Last Name..">
+            <label for="country">
+                Country
+            </label>
+            <select id="country" name="country">
+                <option value="usa">
+                    USA
+                </option>
+                <option value="canada">
+                    Canada
+                </option>
+                <option value="australia">
+                    Australia
+                </option>
+            </select>
+            <label for="message">
+                Message
+            </label>
+            <textarea id="message" name="message" placeholder="Your Message.." style="height: 200px">
+            </textarea>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </body>
 </html>

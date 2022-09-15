@@ -1,0 +1,67 @@
+body {
+    box-sizing: border-box;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #bb2f2f;
+    position: sticky;
+    top: 0px;
+    border-radius: 5px;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+.navbar li a:hover {
+    background-color: #111111;
+}
+.navbar header {
+    background-color: #111111;
+    height: 15px;
+    border-radius: 5px;
+}
+.navbar header a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: smaller;
+}
+.navbar header a:hover {
+    color: #bb2f2f;
+}
+.cform {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+input[type=submit] {
+    background-color: #bb2f2f;
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #111111
+}
